@@ -1,0 +1,409 @@
+# Organization
+
+- Dashboard
+    - Form/event filter
+    - Dashboard type
+    - Time frame change
+- My Qgiv
+    - Search & filters
+    - Upgrade form
+    - Active/inactive switch
+    - Group manage form tags
+    - Individual manage form tags
+- Givi
+    - Givi settings
+    - Restrictions
+    - Receipts
+    - Images
+- SMS/Text - Contact Lists
+    - Contact lists
+    - Add new contact list
+    - Edit contact list
+    - Import contacts
+- SMS/Text - Send
+    - Message list
+    - Create text message
+    - Template list
+    - Add new template
+    - View send history
+- Donors - Donor Accounts
+    - Search
+    - Edit donor account
+    - Donor - Recurring/transaction history
+    - Ghost donor
+- Donors - Recurring
+    - Search
+    - Advanced filtering
+    - Group editing
+    - Download recurring report
+    - Download contacts
+- Reporting - Reports
+    - search
+    - List reports
+    - View report
+    - Download report
+- Reporting - Transactions
+    - Search & filters
+    - List transactions
+    - Downloads (trans details, trans summary, contacts)
+    - Customize columns
+- Reporting - Custom Reports
+    - List reports
+    - Run report
+    - Clone report
+    - Edit report
+    - Delete report
+- Reporting - Donor Summary
+    - Search & filters, selection
+    - Send summary email
+- Reporting - Integrations
+    - History
+    - Add new integration
+    - Manage integration
+- Reporting - Data Mapping
+    - search
+    - List mappings
+    - Add new data mapping
+- Reporting - Offline
+    - Import/upload
+- Statements - Statements
+    - search
+    - Dashboard
+    - Summary & detailed downloads
+    - View fee details
+- Statements - Batches & Settlements
+    - List batches & settlements
+    - Date selection
+- Users
+    - Search
+    - List users
+    - Add new user
+    - Form filter selection
+    - Edit user
+    - Password reset
+- Notifications
+    - Add recipient
+    - List notifications
+    - Manage notification
+- Settings - Org Info
+- Settings - Form Tags
+    - Add form tag
+    - List tags
+    - Manage tag
+- Settings - Widgets
+    - Add widget
+    - List widgets
+    - Manage widget
+- Settings - API
+    - Search
+    - List tokens
+    - Create api token
+    - Manage api token
+    
+# Qgiv
+
+- Form builder
+- dashboard * same for all dashboards
+- My Form - Form settings
+    - System settings - enable pledges, donations, recurring, donor accounts, dedication notification, invoice, gift assist, matching gifts, offline & unfulfilled in thermometers
+    - Mobile settings - enable mobile, personal info
+    - Personal info
+    - Admin notifications
+    - Internationalization
+- My Form - Donation amounts
+    - Add amount
+    - List amounts
+    - Manage amount
+- My Form - restrictions
+    - Add restriction
+    - List restrictions
+    - Manage restriction
+- My Form - dedications
+    - Dedication type - list
+    - Dedication type - add dedication type
+    - Dedication type - manage dedication type
+    - Dedication field - list
+    - Dedication field - add dedication field
+    - Dedication field - manage dedication field
+- My Form - Custom fields
+    - List fields
+    - Add custom field
+    - Manage custom field
+    - Required/optional
+    - Display options
+- My Form - pledges
+    - List pledges
+    - Add new pledge
+    - Manage pledge
+- My Form - Wording 
+    - List wording
+    - Update wording
+- Events
+    - List events
+    - Add event
+    - Manage event
+    - Event - info
+    - Event - location
+    - Event - display options (mobile, private)
+    - Event - settings (dates, cutoff)
+    - Event - notifications
+    - Event - registration receipt
+    - Event - packages - list
+    - Event - packages - add
+    - Event - packages - edit
+    - Event - fields - list
+    - Event - fields - add
+    - Event - fields - edit
+    - Event - promo - list
+    - Event - promo - add
+    - Event - promo - edit
+    - Event - attendees - list
+    - Event - attendees - search
+    - Event - attendees - download/email
+- Goals
+    - List goals
+    - Add new goal
+    - Manage goal
+- Receipts
+    - Donations
+    - Events
+    - Pledges
+    - System
+    - * - versions
+    - * - include PDF receipt
+- Share your form
+    - Facebook/twitter integrations
+- Text-to-donate
+    - List campaigns
+    - Add new text campaign
+    - Manage text campaign
+    - Text campaign - start/end dates
+    - Text campaign - require amount
+    - Text campaign - reminders
+    
+# P2P
+
+- Event builder
+- dashboard * same for all dashboards
+- My event - event settings
+    - Event info
+    - Contact info
+    - Admin notifications
+    - Registration settings - enable *
+    - Fundraising settings
+    - Donation settings - min/max amounts
+    - Donation settings - offline
+    - Donation settings - enable donation targeting
+    - Donation settings - enable recurring
+    - Donation settings - gift assist
+    - Donation settings - matching donations
+    - Custom settings - alias
+    - Internationalization
+- My event - classifications
+    - Status filter
+    - List classifications 
+    - Add new classification
+    - Manage classification
+    - Classifications - settings
+- My event - categories
+    - List categories
+    - Add new category
+    - Manage category
+- My event - promo codes
+    - List promo codes
+    - Add promo code
+    - Manage promo code
+    - Promo code start/end
+- My event - custom fields
+    - List custom fields
+    - Add new custom field
+    - Manage custom field
+    - Required/optional
+    - Display options
+- My event - dedications
+    - List dedication types
+    - Add new dedication type
+    - Manage dedication type
+- My event - donation amounts
+    - List amounts
+    - add amount
+    - Manage amount
+    - Sorting 
+- My event - restrictions
+    - List restrictions
+    - Add restriction
+    - Manage restriction 
+- Share your event - social settings
+    - List share settings
+    - Social media URLs
+    - Facebook fundraisers
+- Share your event - social templates
+    - List templates
+    - Add new template
+    - Manage template
+    - Post trigger - manually, goal reached, date, periodically
+- Share your event - social posts
+- Share your event - system emails
+    - List email templates
+    - Edit email template
+- Share your event - email campaigns
+    - List campaigns
+    - Create campaign
+    - Create campaign - trigger (now, date, rule)
+    - Manage campaign
+    - Clone campaign
+- Content - badges
+    - Search
+    - List badges
+    - Create badge
+    - Create badge - who (manual, achievement, engagement)
+    - Participant/Team
+    - Manage badge
+- Content - sponsor categories
+    - List sponsor categories
+    - Add sponsor category
+    - Manage sponsor category
+- Content - sponsors
+    - List sponsors
+    - add sponsor
+    - Manage sponsor 
+- Content - resources
+    - List resources
+    - Add resource
+    - Manage resource
+    - Resource types (images, documents, other)
+- Content - inappropriate content
+    - List inappropriate content warnings
+    - Flagged/cleared/blocked tabs
+- Content - walkthroughs
+    - List walkthroughs
+    - Manage walkthroughs
+- Store - settings
+    - List store settings
+    - General info
+    - Shipping 
+    - Deliver info
+- Store - categories
+    - List product categories
+    - Add category
+    - Manage category
+- Store - products
+    - List products
+    - Add product
+    - Manage product
+- Constituents - participants
+    - search
+    - List constituents
+    - Edit constituent
+    - Ghost constituent
+    - Disable
+- Constituents - donors
+    - Search
+    - List donors
+    - Download donations
+    - edit donor
+- Constituents - teams
+    - search
+    - List teams
+    - Download 
+    - Create team
+    - Edit team
+    - Disable team
+        
+# Auctions
+
+- My auction - dashboard * same for all dashboards
+- My auction - settings
+    - List auction settings
+    - Event info
+    - Givi display options
+    - Event location
+    - Event settings - one time
+    - Event settings - donation cutoff dates
+    - Event settings - event start/end dates
+    - Event settings - registration cutoff
+    - Donation settings - min/max
+    - Donation settings - gift assist
+    - Donation settings - matching gifts
+    - Admin notifications
+    - Event contact info
+    - Event alias
+- My auction - packages
+    - List packages
+    - Add package
+    - Manage package
+    - Private package
+    - Discounts (early, multiple packages)
+- My auction - promo codes
+    - List promo codes
+    - Add promo code
+    - Manage promo code
+    - Amount vs percentage discount
+    - Start/end date
+- My auction - event custom fields
+    - List fields
+    - Add field
+    - Manage field
+    - Event wide field
+- My auction - restrictions
+    - List restrictions
+    - Add restriction
+    - manage restriction
+- My auction - dedications
+    - List dedication types
+    - Add dedication type
+    - Manage dedication type
+- My auction - donation custom fields
+    - List custom fields
+    - Add field
+    - Manage field
+- My auction - donation amounts
+    - List amounts
+    - add amount
+    - Manage amount
+- Receipts
+    - List event, donation, system
+    - Edit receipt
+- Content - sponsor categories
+    - List sponsor categories
+    - Add sponsor category
+    - Manage sponsor category
+- Content - sponsors
+    - List sponsors
+    - add sponsor
+    - manage sponsor
+- Content - notifications
+    - List notificaitons
+    - Create new notification
+    - Manage notification
+- Auction items - categories
+    - List categories
+    - Add category
+    - Manage category
+    - Category start/end date
+- Auction items - search tags
+    - List tags
+    - Add tag
+    - Manage tag
+- Auction items - items
+    - List items
+    - Add tag
+    - Search
+    - Add item
+    - Manage item
+    - Categories tabs (auction, store, fund-a-need)
+    - Bid settings (start, increment, buy it now, reserve, value, direct)
+- Auction items - item import
+
+# Fundraising Hubs
+
+- dashboard * same for all dashboards
+- settings
+    - List settings
+    - Info
+    - Search settings
+    - alias
+- Social settings
+    - List social settings
+    - Social media URLs
+    - Sharing content

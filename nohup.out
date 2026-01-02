@@ -1,0 +1,513 @@
+[I 21:41:50.842 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:41:50.842 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 21:41:50.845 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 21:41:50.845 LabApp] The Jupyter Notebook is running at:
+[I 21:41:50.845 LabApp] http://ip-172-31-80-154:8888/
+[I 21:41:50.845 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 21:41:50.846 LabApp] Failed to write server-info to /home/ubuntu/.local/share/jupyter/runtime/nbserver-1395.json: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/bin/jupyter-lab", line 10, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1933, in start
+    self.write_browser_open_file()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1843, in write_browser_open_file
+    self._write_browser_open_file(open_url, f)
+OSError: [Errno 28] No space left on device
+[I 21:42:08.045 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:42:08.045 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 21:42:08.048 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 21:42:08.048 LabApp] The Jupyter Notebook is running at:
+[I 21:42:08.048 LabApp] http://ip-172-31-80-154:8888/
+[I 21:42:08.048 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 21:42:08.048 LabApp] Failed to write server-info to /home/ubuntu/.local/share/jupyter/runtime/nbserver-1399.json: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/bin/jupyter-lab", line 10, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1933, in start
+    self.write_browser_open_file()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1843, in write_browser_open_file
+    self._write_browser_open_file(open_url, f)
+OSError: [Errno 28] No space left on device
+[I 21:45:55.121 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:45:55.122 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 21:45:55.124 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 21:45:55.124 LabApp] The Jupyter Notebook is running at:
+[I 21:45:55.124 LabApp] http://ip-172-31-80-154:8888/
+[I 21:45:55.124 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:46:02.905 LabApp] Could not determine jupyterlab build status without nodejs
+[W 21:46:03.668 LabApp] 500 GET /lab/api/workspaces/lab?1587505563903 (190.9.254.88): Expecting value: line 1 column 1 (char 0)
+[W 21:46:03.668 LabApp] Expecting value: line 1 column 1 (char 0)
+[E 21:46:03.668 LabApp] {
+      "Host": "35.170.179.49:8888",
+      "Pragma": "no-cache",
+      "Accept": "*/*",
+      "X-Xsrftoken": "2|c2e34a83|c4890183b90e5b7652dec8d08c88e8f6|1587226478",
+      "Accept-Encoding": "gzip, deflate",
+      "Cache-Control": "no-cache",
+      "Accept-Language": "en-us",
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15",
+      "Connection": "keep-alive",
+      "Referer": "http://35.170.179.49:8888/lab?",
+      "Cookie": "_xsrf=2|c2e34a83|c4890183b90e5b7652dec8d08c88e8f6|1587226478; username-35-170-179-49-8888=\"2|1:0|10:1586712351|27:username-35-170-179-49-8888|44:MTI4NjJmMzM5OGQ3NDkzZjg0OWFjY2YxZjE4MTUzYzk=|edb3593e414640fce2d6e3f91152fba30ecdea43ede6c78e55313e58445ae7ae\""
+    }
+[E 21:46:03.668 LabApp] 500 GET /lab/api/workspaces/lab?1587505563903 (190.9.254.88) 1.42ms referer=http://35.170.179.49:8888/lab?
+[I 21:46:19.582 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 21:50:23.030 LabApp] 302 GET / (196.52.43.60) 0.33ms
+[W 21:56:10.545 LabApp] 404 GET /logs (62.171.152.36) 41.24ms referer=None
+[W 21:56:10.904 LabApp] 404 GET /editConfig?returnUrl=/ (62.171.152.36) 1.01ms referer=None
+[C 21:58:59.009 LabApp] received signal 15, stopping
+[I 21:58:59.011 LabApp] Shutting down 0 kernels
+[I 22:00:24.741 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 22:00:24.741 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 22:00:24.744 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 22:00:24.744 LabApp] The Jupyter Notebook is running at:
+[I 22:00:24.745 LabApp] http://ip-172-31-80-154:8888/
+[I 22:00:24.745 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:00:29.046 LabApp] Could not determine jupyterlab build status without nodejs
+[I 22:00:30.086 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 23:27:26.394 LabApp] 302 GET / (209.17.97.106) 0.50ms
+[E 23:28:46.083 LabApp] Uncaught exception PUT /lab/api/workspaces/lab?1587511726047 (190.9.254.88)
+    HTTPServerRequest(protocol='http', host='35.170.179.49:8888', method='PUT', uri='/lab/api/workspaces/lab?1587511726047', version='HTTP/1.1', remote_ip='190.9.254.88')
+    OSError: [Errno 28] No space left on device
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1701, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 3178, in wrapper
+        return method(self, *args, **kwargs)
+      File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab_server/workspaces_handler.py", line 174, in put
+        fid.write(raw)
+    OSError: [Errno 28] No space left on device
+[W 23:28:46.086 LabApp] Unhandled error
+[E 23:28:46.086 LabApp] {
+      "Host": "35.170.179.49:8888",
+      "Pragma": "no-cache",
+      "Accept": "*/*",
+      "X-Xsrftoken": "2|c2e34a83|c4890183b90e5b7652dec8d08c88e8f6|1587226478",
+      "Accept-Language": "en-us",
+      "Accept-Encoding": "gzip, deflate",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Origin": "http://35.170.179.49:8888",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15",
+      "Referer": "http://35.170.179.49:8888/lab?",
+      "Content-Length": "779",
+      "Connection": "keep-alive",
+      "Cookie": "_xsrf=2|c2e34a83|c4890183b90e5b7652dec8d08c88e8f6|1587226478; username-35-170-179-49-8888=\"2|1:0|10:1586712351|27:username-35-170-179-49-8888|44:MTI4NjJmMzM5OGQ3NDkzZjg0OWFjY2YxZjE4MTUzYzk=|edb3593e414640fce2d6e3f91152fba30ecdea43ede6c78e55313e58445ae7ae\""
+    }
+[E 23:28:46.086 LabApp] 500 PUT /lab/api/workspaces/lab?1587511726047 (190.9.254.88) 3.80ms referer=http://35.170.179.49:8888/lab?
+--- Logging error ---
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 3178, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab_server/workspaces_handler.py", line 174, in put
+    fid.write(raw)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/logging/__init__.py", line 1029, in emit
+    self.flush()
+  File "/home/ubuntu/anaconda3/lib/python3.7/logging/__init__.py", line 1009, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/home/ubuntu/anaconda3/bin/jupyter-lab", line 10, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1956, in start
+    self.io_loop.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149, in start
+    self.asyncio_loop.run_forever()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1708, in _execute
+    self._handle_request_exception(e)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1752, in _handle_request_exception
+    self.log_exception(*sys.exc_info())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1792, in log_exception
+    exc_info=(typ, value, tb),
+Message: 'Uncaught exception %s\n%r'
+Arguments: ('PUT /lab/api/workspaces/lab?1587511729263 (190.9.254.88)', HTTPServerRequest(protocol='http', host='35.170.179.49:8888', method='PUT', uri='/lab/api/workspaces/lab?1587511729263', version='HTTP/1.1', remote_ip='190.9.254.88'))
+[W 23:28:49.288 LabApp] Unhandled error
+--- Logging error ---
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 3178, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab_server/workspaces_handler.py", line 174, in put
+    fid.write(raw)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/logging/__init__.py", line 1029, in emit
+    self.flush()
+  File "/home/ubuntu/anaconda3/lib/python3.7/logging/__init__.py", line 1009, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/home/ubuntu/anaconda3/bin/jupyter-lab", line 10, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1956, in start
+    self.io_loop.start()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 149, in start
+    self.asyncio_loop.run_forever()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/home/ubuntu/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1708, in _execute
+    self._handle_request_exception(e)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1765, in _handle_request_exception
+    self.send_error(500, exc_info=sys.exc_info())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1218, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/base/handlers.py", line 609, in write_error
+    self.finish(json.dumps(reply))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/base/handlers.py", line 651, in finish
+    return super(APIHandler, self).finish(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1160, in finish
+    self._log()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1736, in _log
+    self.application.log_request(self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 2237, in log_request
+    self.settings["log_function"](handler)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/notebook/log.py", line 49, in log_request
+    log_method(msg.format(**ns))
+Message: '500 PUT /lab/api/workspaces/lab?1587519170751 (190.9.254.88) 1.80ms referer=http://35.170.179.49:8888/lab?'
+Arguments: ()
+[W 06:03:05.763 LabApp] 405 CONNECT ip.ws.126.net:443 (45.13.93.82) 1.10ms referer=None
+[W 06:14:30.299 LabApp] WebSocket ping timeout after 119893 ms.
+Websocket closed
+[I 14:45:31.985 LabApp] Saving file at /scripts/export analytics/export_analytics.py
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 14:55:26.527 LabApp] delete /scripts/export analytics/update/analytic_base_update_2020-04-22_2.csv
+[W 14:55:26.533 LabApp] delete /scripts/export analytics/update/analytic_p2p_update_2020-04-22_2.csv
+[W 14:55:26.534 LabApp] delete /scripts/export analytics/update/analytic_qgiv_event_update_2020-04-22_2.csv
+[W 14:55:26.536 LabApp] delete /scripts/export analytics/update/analytic_qgiv_update_2020-04-22_2.csv
+[I 15:52:59.954 LabApp] Saving file at /scripts/export analytics/export_analytics.py
+[W 15:53:07.536 LabApp] delete /scripts/export analytics/update/analytic_p2p_update_2020-04-22_15.csv
+[W 15:53:07.537 LabApp] delete /scripts/export analytics/update/analytic_qgiv_update_2020-04-22_15.csv
+[I 16:12:42.875 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:13:04.003 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:15:20.699 LabApp] Saving file at /scripts/export google analytics/code/google_analytics.py
+[W 16:16:40.540 LabApp] delete /scripts/export google analytics/code/ga_ids_2020-04-21.csv
+[W 16:16:40.546 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-21.csv
+[I 16:16:56.592 LabApp] Saving file at /scripts/export google analytics/code/google_analytics.py
+[W 16:19:53.349 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-03-31.csv
+[W 16:19:53.361 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-01.csv
+[W 16:19:53.366 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-06.csv
+[W 16:19:53.406 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-02.csv
+[W 16:19:53.407 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-04.csv
+[W 16:19:53.417 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-03.csv
+[W 16:19:53.426 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-05.csv
+[W 16:19:53.462 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-07.csv
+[W 16:19:53.464 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-08.csv
+[W 16:19:53.482 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-09.csv
+[W 16:19:53.483 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-10.csv
+[W 16:19:53.512 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-11.csv
+[W 16:19:53.513 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-12.csv
+[W 16:19:53.547 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-13.csv
+[W 16:19:53.548 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-14.csv
+[W 16:19:53.562 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-15.csv
+[W 16:19:53.566 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-16.csv
+[W 16:19:53.585 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-17.csv
+[W 16:19:53.587 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-18.csv
+[W 16:19:53.630 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-19.csv
+[W 16:19:53.631 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-20.csv
+[W 16:19:53.636 LabApp] delete /scripts/export google analytics/code/ga_traffic_2020-04-21.csv
+[I 16:20:14.589 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:24:09.651 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:27:16.723 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:27:25.057 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[W 16:28:52.434 LabApp] delete /scripts/export google analytics/update/ga_traffic.csv
+[I 16:31:59.807 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[W 16:34:50.031 LabApp] delete /scripts/export google analytics/update/ga_traffic.csv
+[I 16:35:15.275 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 16:39:02.210 LabApp] Saving file at /scripts/export google analytics/code/google_analytics.py
+[W 16:39:14.486 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-15.csv
+[W 16:39:14.490 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-14.csv
+[W 16:39:14.550 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-16.csv
+[W 16:39:14.565 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-17.csv
+[W 16:39:14.567 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-20.csv
+[W 16:39:14.568 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-21.csv
+[W 16:39:14.571 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-19.csv
+[W 16:39:14.573 LabApp] delete /scripts/export google analytics/update/ga_traffic_2020-04-18.csv
+[I 17:00:32.694 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 17:01:08.346 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 17:01:21.035 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 17:01:51.393 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 19:30:10.394 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[W 19:31:59.958 LabApp] delete /scripts/export google analytics/update/ga_traffic.csv
+[I 19:38:43.582 LabApp] 302 GET / (209.17.96.98) 0.58ms
+[I 22:04:41.989 LabApp] 302 GET / (86.50.252.230) 0.66ms
+[I 22:12:11.314 LabApp] 302 GET /tree? (86.50.252.230) 0.46ms
+[I 23:37:57.006 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 23:37:57.197 LabApp] Saving file at /scripts/export google analytics/code/update_ga.py
+[I 23:40:17.717 LabApp] Kernel started: 3b73d5c5-b4f3-47d5-9f2f-c5ea260cb643
+[I 23:42:17.738 LabApp] Saving file at /scripts/export google analytics/notebooks/script testing.ipynb
+[I 23:44:17.971 LabApp] Saving file at /scripts/export google analytics/notebooks/script testing.ipynb
+[I 23:53:25.215 LabApp] Saving file at /scripts/update all/update_all.sh
+[I 23:55:25.404 LabApp] Saving file at /scripts/update all/update_all.sh
+[I 00:15:11.537 LabApp] 302 GET / (139.162.83.10) 0.49ms
+[I 00:49:49.373 LabApp] 302 GET / (209.17.96.10) 0.38ms
+[I 01:03:50.852 LabApp] Saving file at /webrootv2/start_dashboards.sh
+[I 01:11:20.491 LabApp] Saving file at /webrootv2/start_dashboards.sh
+[I 01:12:51.351 LabApp] Saving file at /webrootv2/export.py
+[I 02:15:58.699 LabApp] Creating new notebook in /projects/form health v2/jeremy/notebooks
+[I 02:15:59.061 LabApp] Kernel started: cc7ccc27-f9fc-4ded-aec9-7f720493adb8
+[I 02:17:59.062 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/analytics.ipynb
+[I 02:19:59.251 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:21:59.441 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:23:59.617 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:25:59.795 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:27:59.977 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:29:40.803 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:29:53.511 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:31:53.719 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:32:28.635 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:34:28.829 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:35:03.881 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:43:04.079 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:45:04.448 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:48:59.231 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:50:29.943 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:52:30.163 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:54:30.361 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:56:30.555 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 02:58:30.747 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:00:30.939 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:02:31.189 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:04:31.393 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:06:31.603 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:14:31.818 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:15:10.521 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:23:10.726 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:25:10.927 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:27:11.340 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 03:29:11.797 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 04:44:29.307 LabApp] 302 GET / (89.248.174.3) 0.30ms
+[I 04:50:55.092 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 04:52:55.301 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[C 05:00:12.312 LabApp] received signal 15, stopping
+[I 05:00:12.312 LabApp] Shutting down 2 kernels
+[I 05:00:12.414 LabApp] Kernel shutdown: 3b73d5c5-b4f3-47d5-9f2f-c5ea260cb643
+[I 05:00:12.414 LabApp] Kernel shutdown: cc7ccc27-f9fc-4ded-aec9-7f720493adb8
+[I 13:03:32.959 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 13:03:32.960 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 13:03:32.964 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 13:03:32.964 LabApp] The Jupyter Notebook is running at:
+[I 13:03:32.964 LabApp] http://ip-172-31-80-154:8888/
+[I 13:03:32.964 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:03:36.599 LabApp] Could not determine jupyterlab build status without nodejs
+[I 13:03:37.629 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 13:03:38.250 LabApp] Kernel started: dea2f9ca-9fef-4c39-8910-42ecd7058938
+[I 13:03:38.263 LabApp] Kernel started: bd31071e-ad5e-428a-a095-309690fbde3e
+[I 14:08:33.704 LabApp] 302 GET /recordings/ (139.99.131.140) 0.50ms
+[W 14:08:33.793 LabApp] 404 GET /a2billing/admin/Public/PP_error.php?c=accessdenied (139.99.131.140) 43.19ms referer=None
+[I 15:06:43.567 LabApp] Kernel started: ebb09b44-928b-45c3-b4d8-1eefe6fc12f9
+[I 15:06:48.765 LabApp] Starting buffering for dea2f9ca-9fef-4c39-8910-42ecd7058938:12192540-bc84-4c65-9a1f-dcdc263d8634
+[I 15:20:47.999 LabApp] Creating new notebook in /projects/revenue projections/notebooks
+[I 15:20:48.466 LabApp] Kernel started: 0ded3b1d-417f-4217-933f-eb3a07d925c9
+[I 15:22:43.651 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 15:22:48.379 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client forms.ipynb
+[I 15:30:43.877 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 15:32:44.110 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 15:52:40.945 LabApp] 302 GET /recordings/ (139.99.131.140) 0.45ms
+[W 15:52:40.986 LabApp] 404 GET /a2billing/admin/Public/PP_error.php?c=accessdenied (139.99.131.140) 1.25ms referer=None
+[I 16:11:33.280 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:13:33.796 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:25:34.475 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:41:34.927 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:43:35.328 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:45:35.718 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:47:36.109 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:49:36.481 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:49:37.179 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:51:37.590 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:53:37.986 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:01:38.369 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:03:38.809 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:05:39.238 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:25:39.720 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:27:40.516 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:27:41.862 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:30:00.162 LabApp] 302 GET / (54.153.112.40) 0.35ms
+[C 21:36:57.153 LabApp] received signal 15, stopping
+[I 21:36:57.153 LabApp] Shutting down 4 kernels
+[I 21:36:57.256 LabApp] Kernel shutdown: dea2f9ca-9fef-4c39-8910-42ecd7058938
+[I 21:36:57.256 LabApp] Kernel shutdown: bd31071e-ad5e-428a-a095-309690fbde3e
+[I 21:36:57.257 LabApp] Kernel shutdown: ebb09b44-928b-45c3-b4d8-1eefe6fc12f9
+[I 21:36:57.257 LabApp] Kernel shutdown: 0ded3b1d-417f-4217-933f-eb3a07d925c9
+[I 15:42:36.055 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 15:42:36.055 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 15:42:36.059 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 15:42:36.059 LabApp] The Jupyter Notebook is running at:
+[I 15:42:36.059 LabApp] http://ip-172-31-80-154:8888/
+[I 15:42:36.059 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:42:39.601 LabApp] Could not determine jupyterlab build status without nodejs
+[I 15:42:41.294 LabApp] Kernel started: 346c5037-dc45-4eb2-beba-84d1f0c3e4e6
+[I 15:42:41.308 LabApp] Kernel started: fb31daa5-e0d9-4f50-89b4-bd78438d74e9
+[I 15:42:41.916 LabApp] Kernel started: 0a35429e-c065-426a-9bbe-3c40aaf59517
+[I 15:44:58.073 LabApp] Saving file at /projects/feature adoption/code/data_build.py
+[I 15:46:12.375 LabApp] Saving file at /projects/feature adoption/code/data_build.py
+[I 16:23:53.624 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:25:54.451 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:27:55.037 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:43:55.660 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:45:56.402 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:47:57.252 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:49:57.820 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:51:14.771 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:51:31.869 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 16:53:32.124 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:29:13.326 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 17:48:00.279 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[W 19:06:31.165 LabApp] 405 CONNECT ip.ws.126.net:443 (45.13.93.82) 36.10ms referer=None
+[W 20:23:52.778 LabApp] Replacing stale connection: 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:23:57.780 LabApp] Starting buffering for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:23:57.781 LabApp] Restoring connection for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[W 20:24:11.168 LabApp] Replacing stale connection: 0a35429e-c065-426a-9bbe-3c40aaf59517:f7eb6f42-a4bb-4208-8687-94672c2c035b
+[W 20:24:41.921 LabApp] WebSocket ping timeout after 119919 ms.
+[W 20:25:11.905 LabApp] WebSocket ping timeout after 91586 ms.
+[I 20:25:15.106 LabApp] Starting buffering for fb31daa5-e0d9-4f50-89b4-bd78438d74e9:0cec24a9-c1cd-4f1b-9be3-a198b6d8ed37
+[W 20:26:27.783 LabApp] WebSocket ping timeout after 100831 ms.
+[I 20:26:32.784 LabApp] Starting buffering for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:26:51.085 LabApp] Restoring connection for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[W 20:27:16.173 LabApp] WebSocket ping timeout after 110213 ms.
+[W 20:28:05.934 LabApp] Replacing stale connection: 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[W 20:28:05.936 LabApp] Replacing stale connection: 0a35429e-c065-426a-9bbe-3c40aaf59517:3bd19950-6ed8-415d-9a6f-d65a8d74f3e2
+[W 20:28:05.964 LabApp] Replacing stale connection: 0a35429e-c065-426a-9bbe-3c40aaf59517:f7eb6f42-a4bb-4208-8687-94672c2c035b
+[I 20:28:06.004 LabApp] Starting buffering for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:28:06.005 LabApp] Restoring connection for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[W 20:32:06.005 LabApp] WebSocket ping timeout after 119923 ms.
+[W 20:32:06.013 LabApp] WebSocket ping timeout after 119895 ms.
+[W 20:32:06.047 LabApp] WebSocket ping timeout after 119923 ms.
+[W 20:32:06.067 LabApp] WebSocket ping timeout after 119892 ms.
+[W 20:32:06.175 LabApp] WebSocket ping timeout after 119890 ms.
+[I 20:32:11.008 LabApp] Starting buffering for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:32:11.048 LabApp] Starting buffering for 0a35429e-c065-426a-9bbe-3c40aaf59517:f7eb6f42-a4bb-4208-8687-94672c2c035b
+[I 20:32:11.177 LabApp] Starting buffering for fb31daa5-e0d9-4f50-89b4-bd78438d74e9:0cec24a9-c1cd-4f1b-9be3-a198b6d8ed37
+[I 20:34:46.474 LabApp] Restoring connection for 346c5037-dc45-4eb2-beba-84d1f0c3e4e6:735ac3d6-29c4-4c1d-82f3-67cb53c5a20d
+[I 20:34:46.490 LabApp] Restoring connection for 0a35429e-c065-426a-9bbe-3c40aaf59517:f7eb6f42-a4bb-4208-8687-94672c2c035b
+[C 20:41:49.603 LabApp] received signal 15, stopping
+[I 20:41:49.604 LabApp] Shutting down 3 kernels
+[I 20:41:49.708 LabApp] Kernel shutdown: 346c5037-dc45-4eb2-beba-84d1f0c3e4e6
+[I 20:41:49.708 LabApp] Kernel shutdown: fb31daa5-e0d9-4f50-89b4-bd78438d74e9
+[I 20:41:49.708 LabApp] Kernel shutdown: 0a35429e-c065-426a-9bbe-3c40aaf59517
+[I 00:39:52.193 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 00:39:52.194 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 00:39:52.197 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 00:39:52.197 LabApp] The Jupyter Notebook is running at:
+[I 00:39:52.197 LabApp] http://ip-172-31-80-154:8888/
+[I 00:39:52.197 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:39:56.328 LabApp] Could not determine jupyterlab build status without nodejs
+[I 00:39:58.302 LabApp] Kernel started: 9c957c44-412f-4a3a-8506-5226201a534c
+[I 00:39:58.314 LabApp] Kernel started: c46a5f10-2b29-4dc5-a642-77fcfee4541b
+[I 00:39:58.565 LabApp] Kernel started: df14605f-a9e8-4a73-9192-dd6ea447e7f7
+[I 00:40:14.947 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 00:41:58.434 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 00:43:58.922 LabApp] Saving file at /projects/revenue projections/notebooks/implementation - client.ipynb
+[I 00:44:31.826 LabApp] Starting buffering for 9c957c44-412f-4a3a-8506-5226201a534c:5c3a56f2-cfc5-4c1c-8775-b7c4e82af58c
+[I 00:45:12.790 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 00:46:42.181 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 00:48:42.387 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 00:50:42.599 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 00:52:42.815 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 00:54:43.040 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/feature adoption.ipynb
+[I 01:22:43.344 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:24:43.561 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:26:43.983 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:28:44.197 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:30:44.525 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:32:44.775 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 01:34:45.016 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 02:08:45.382 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 02:10:45.597 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 02:12:45.806 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[I 02:14:46.018 LabApp] Saving file at /projects/form health v2/jeremy/notebooks/trans source growth.ipynb
+[C 02:18:29.049 LabApp] received signal 15, stopping
+[I 02:18:29.049 LabApp] Shutting down 3 kernels
+[I 02:18:29.151 LabApp] Kernel shutdown: 9c957c44-412f-4a3a-8506-5226201a534c
+[I 02:18:29.151 LabApp] Kernel shutdown: c46a5f10-2b29-4dc5-a642-77fcfee4541b
+[I 02:18:29.151 LabApp] Kernel shutdown: df14605f-a9e8-4a73-9192-dd6ea447e7f7
+[I 15:39:43.193 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 15:39:43.194 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 15:39:43.197 LabApp] Serving notebooks from local directory: /home/ubuntu/recommendation
+[I 15:39:43.197 LabApp] The Jupyter Notebook is running at:
+[I 15:39:43.197 LabApp] http://ip-172-31-80-154:8888/
+[I 15:39:43.197 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:39:47.974 LabApp] Could not determine jupyterlab build status without nodejs
+[I 15:39:49.061 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 15:39:49.884 LabApp] Kernel started: 67bece9d-f875-4b85-acd4-14a11d1ae7bd
+[I 15:39:49.895 LabApp] Kernel started: 7d1c50d1-df36-4497-bf41-3d2053bdbd02
+[I 15:39:49.933 LabApp] Kernel started: f5fe591b-ec7d-4c27-8353-c1e29db67d6f
+[I 15:41:56.175 LabApp] Creating new file in /
+[I 15:43:56.547 LabApp] Saving file at /startup.sh
+[I 15:45:56.755 LabApp] Saving file at /startup.sh
+[W 15:46:42.236 LabApp] delete /startup.sh
+[I 15:48:15.357 LabApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[C 15:49:58.284 LabApp] received signal 15, stopping
+[I 15:49:58.304 LabApp] Shutting down 3 kernels
+[I 15:49:58.308 LabApp] Kernel shutdown: 67bece9d-f875-4b85-acd4-14a11d1ae7bd
+[I 15:49:58.311 LabApp] Kernel shutdown: 7d1c50d1-df36-4497-bf41-3d2053bdbd02
+[I 15:49:58.312 LabApp] Kernel shutdown: f5fe591b-ec7d-4c27-8353-c1e29db67d6f

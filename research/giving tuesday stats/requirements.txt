@@ -1,0 +1,9 @@
+ipykernel
+numpy==1.26
+pandas==1.4.0
+boto3
+psycopg2-binary
+SQLAlchemy
+requests
+jason
+datetime

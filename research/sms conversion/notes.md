@@ -1,0 +1,3 @@
+- SMS campaign conversion
+- average number of reminders
+- do I need more data?
